@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: none;
+	-webkit-text-size-adjust: none;
+	text-size-adjust: none;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+ul, ol {
+	list-style: none;
+}
+
+main {
+    height: 100vh;
+    scroll-snap-type: y proximity;
+    overflow-y: scroll;
+}
+
+main>section {
+    height: 100vh;
+    width: 100%;
+    scroll-snap-align: start;
+}
+
+#first {
+    background-color: hotpink;
+}
+
+#second {
+    background-color: aquamarine;
+}
+
+h1 {
+	font-size: 16rem;
+}
