@@ -1,6 +1,9 @@
 *,
 *::before,
 *::after {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
 	box-sizing: border-box;
 }
 
@@ -8,16 +11,28 @@ html {
 	-moz-text-size-adjust: none;
 	-webkit-text-size-adjust: none;
 	text-size-adjust: none;
+    font-size: 24px;
 }
 
 html, body {
-  margin: 0;
-  padding: 0;
-  height: 100%;
+    line-height: 1.5;
+    height: 100%;
+}
+
+h1 {
+    line-height: 1;
 }
 
 ul, ol {
 	list-style: none;
+}
+
+a,
+a:visited,
+a:focus,
+a:active {
+  text-decoration: none;
+  outline: none;
 }
 
 main {
@@ -29,7 +44,22 @@ main {
 main>section {
     height: 100vh;
     width: 100%;
+    padding: 2rem 2rem;
     scroll-snap-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p {
+    max-width: 20rem;
 }
 
 #first {
