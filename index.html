@@ -8,13 +8,13 @@
 </head>
 <body>
 	<main>
-        <section id="first">
+        <section>
             <div class="horizontal">
                 <h2>Company</h2>
                 <nav>
                     <ul>
-                        <li><a href="#first">First</a></li>
-                        <li><a href="#second">Second</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#feedback">Feedback</a></li>
                     </ul>
                 </nav>
             </div>
@@ -25,14 +25,14 @@
                 </p>
             </div>
         </section>
-        <section id="second">
-            <h2>Pricing</h2>
-            <p>blah blah blah</p>
-            <div class="horizontal big">
+        <section id="products">
+            <h2>Our Products</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="horizontal">
                 <section>
                     <div>
                         <h3>Card</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, autem.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                         <ul>
                             <li>foo</li>
                             <li>bar</li>
@@ -44,7 +44,7 @@
                 <section>
                     <div>
                         <h3>Card</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, autem.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                         <ul>
                             <li>foo</li>
                             <li>bar</li>
@@ -56,7 +56,31 @@
                 <section>
                     <div>
                         <h3>Card</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, autem.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <ul>
+                            <li>foo</li>
+                            <li>bar</li>
+                            <li>baz</li>
+                        </ul>
+                    </div>
+                    <a href="#">Button</a>
+                </section>
+                <section>
+                    <div>
+                        <h3>Card</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                        <ul>
+                            <li>foo</li>
+                            <li>bar</li>
+                            <li>baz</li>
+                        </ul>
+                    </div>
+                    <a href="#">Button</a>
+                </section>
+                <section>
+                    <div>
+                        <h3>Card</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                         <ul>
                             <li>foo</li>
                             <li>bar</li>
@@ -67,6 +91,26 @@
                 </section>
             </div>
         </section>
+        <section id="feedback">
+			<form>
+			    <label>Did you find what you were looking for?</label>
+			    <div class="radio-group">
+			        <div class="radio-option">
+			            <input type="radio" name="helpful" id="yes" value="yes">
+			            <label for="yes">Yes</label>
+			        </div>
+			        <div class="radio-option">
+			            <input type="radio" name="helpful" id="no" value="no">
+			            <label for="no">No</label>
+			        </div>
+			    </div>
+			    <label for="feedback-text">Please provide your feedback:</label>
+			    <textarea name="feedback" id="feedback-text" placeholder="Let us know what worked, what didn't, and what could be improved" required></textarea>
+			    <label for="email">Email address (optional):</label>
+			    <input type="email" name="email" id="email" placeholder="janedoe@example.com">
+			    <button type="submit">Submit</button>
+			</form>
+		</section>
 	</main>
 </body>
 </html>
